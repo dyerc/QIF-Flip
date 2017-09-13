@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		831FD75A1F69AC13000D75E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FD7591F69AC13000D75E5 /* AppDelegate.swift */; };
+		831FD75C1F69AC13000D75E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FD75B1F69AC13000D75E5 /* ViewController.swift */; };
+		831FD75E1F69AC13000D75E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 831FD75D1F69AC13000D75E5 /* Assets.xcassets */; };
+		831FD7611F69AC13000D75E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831FD75F1F69AC13000D75E5 /* Main.storyboard */; };
+		831FD76C1F69AC13000D75E5 /* QIF_FlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FD76B1F69AC13000D75E5 /* QIF_FlipTests.swift */; };
+		831FD7771F69AC13000D75E5 /* QIF_FlipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FD7761F69AC13000D75E5 /* QIF_FlipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		831FD7681F69AC13000D75E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 831FD74E1F69AC13000D75E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 831FD7551F69AC13000D75E5;
+			remoteInfo = "QIF Flip";
+		};
+		831FD7731F69AC13000D75E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 831FD74E1F69AC13000D75E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 831FD7551F69AC13000D75E5;
+			remoteInfo = "QIF Flip";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		831FD7561F69AC13000D75E5 /* QIF Flip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QIF Flip.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		831FD7591F69AC13000D75E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		831FD75B1F69AC13000D75E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		831FD75D1F69AC13000D75E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		831FD7601F69AC13000D75E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		831FD7621F69AC13000D75E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831FD7671F69AC13000D75E5 /* QIF FlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QIF FlipTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		831FD76B1F69AC13000D75E5 /* QIF_FlipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QIF_FlipTests.swift; sourceTree = "<group>"; };
+		831FD76D1F69AC13000D75E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831FD7721F69AC13000D75E5 /* QIF FlipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QIF FlipUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		831FD7761F69AC13000D75E5 /* QIF_FlipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QIF_FlipUITests.swift; sourceTree = "<group>"; };
+		831FD7781F69AC13000D75E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		831FD7531F69AC13000D75E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831FD7641F69AC13000D75E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831FD76F1F69AC13000D75E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		831FD74D1F69AC13000D75E5 = {
+			isa = PBXGroup;
+			children = (
+				831FD7581F69AC13000D75E5 /* QIF Flip */,
+				831FD76A1F69AC13000D75E5 /* QIF FlipTests */,
+				831FD7751F69AC13000D75E5 /* QIF FlipUITests */,
+				831FD7571F69AC13000D75E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		831FD7571F69AC13000D75E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				831FD7561F69AC13000D75E5 /* QIF Flip.app */,
+				831FD7671F69AC13000D75E5 /* QIF FlipTests.xctest */,
+				831FD7721F69AC13000D75E5 /* QIF FlipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		831FD7581F69AC13000D75E5 /* QIF Flip */ = {
+			isa = PBXGroup;
+			children = (
+				831FD7591F69AC13000D75E5 /* AppDelegate.swift */,
+				831FD75B1F69AC13000D75E5 /* ViewController.swift */,
+				831FD75D1F69AC13000D75E5 /* Assets.xcassets */,
+				831FD75F1F69AC13000D75E5 /* Main.storyboard */,
+				831FD7621F69AC13000D75E5 /* Info.plist */,
+			);
+			path = "QIF Flip";
+			sourceTree = "<group>";
+		};
+		831FD76A1F69AC13000D75E5 /* QIF FlipTests */ = {
+			isa = PBXGroup;
+			children = (
+				831FD76B1F69AC13000D75E5 /* QIF_FlipTests.swift */,
+				831FD76D1F69AC13000D75E5 /* Info.plist */,
+			);
+			path = "QIF FlipTests";
+			sourceTree = "<group>";
+		};
+		831FD7751F69AC13000D75E5 /* QIF FlipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				831FD7761F69AC13000D75E5 /* QIF_FlipUITests.swift */,
+				831FD7781F69AC13000D75E5 /* Info.plist */,
+			);
+			path = "QIF FlipUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		831FD7551F69AC13000D75E5 /* QIF Flip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 831FD77B1F69AC13000D75E5 /* Build configuration list for PBXNativeTarget "QIF Flip" */;
+			buildPhases = (
+				831FD7521F69AC13000D75E5 /* Sources */,
+				831FD7531F69AC13000D75E5 /* Frameworks */,
+				831FD7541F69AC13000D75E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QIF Flip";
+			productName = "QIF Flip";
+			productReference = 831FD7561F69AC13000D75E5 /* QIF Flip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		831FD7661F69AC13000D75E5 /* QIF FlipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 831FD77E1F69AC13000D75E5 /* Build configuration list for PBXNativeTarget "QIF FlipTests" */;
+			buildPhases = (
+				831FD7631F69AC13000D75E5 /* Sources */,
+				831FD7641F69AC13000D75E5 /* Frameworks */,
+				831FD7651F69AC13000D75E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				831FD7691F69AC13000D75E5 /* PBXTargetDependency */,
+			);
+			name = "QIF FlipTests";
+			productName = "QIF FlipTests";
+			productReference = 831FD7671F69AC13000D75E5 /* QIF FlipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		831FD7711F69AC13000D75E5 /* QIF FlipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 831FD7811F69AC13000D75E5 /* Build configuration list for PBXNativeTarget "QIF FlipUITests" */;
+			buildPhases = (
+				831FD76E1F69AC13000D75E5 /* Sources */,
+				831FD76F1F69AC13000D75E5 /* Frameworks */,
+				831FD7701F69AC13000D75E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				831FD7741F69AC13000D75E5 /* PBXTargetDependency */,
+			);
+			name = "QIF FlipUITests";
+			productName = "QIF FlipUITests";
+			productReference = 831FD7721F69AC13000D75E5 /* QIF FlipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		831FD74E1F69AC13000D75E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Chris Dyer";
+				TargetAttributes = {
+					831FD7551F69AC13000D75E5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					831FD7661F69AC13000D75E5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 831FD7551F69AC13000D75E5;
+					};
+					831FD7711F69AC13000D75E5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 831FD7551F69AC13000D75E5;
+					};
+				};
+			};
+			buildConfigurationList = 831FD7511F69AC13000D75E5 /* Build configuration list for PBXProject "QIF Flip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 831FD74D1F69AC13000D75E5;
+			productRefGroup = 831FD7571F69AC13000D75E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				831FD7551F69AC13000D75E5 /* QIF Flip */,
+				831FD7661F69AC13000D75E5 /* QIF FlipTests */,
+				831FD7711F69AC13000D75E5 /* QIF FlipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		831FD7541F69AC13000D75E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831FD75E1F69AC13000D75E5 /* Assets.xcassets in Resources */,
+				831FD7611F69AC13000D75E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831FD7651F69AC13000D75E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831FD7701F69AC13000D75E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		831FD7521F69AC13000D75E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831FD75C1F69AC13000D75E5 /* ViewController.swift in Sources */,
+				831FD75A1F69AC13000D75E5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831FD7631F69AC13000D75E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831FD76C1F69AC13000D75E5 /* QIF_FlipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		831FD76E1F69AC13000D75E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				831FD7771F69AC13000D75E5 /* QIF_FlipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		831FD7691F69AC13000D75E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 831FD7551F69AC13000D75E5 /* QIF Flip */;
+			targetProxy = 831FD7681F69AC13000D75E5 /* PBXContainerItemProxy */;
+		};
+		831FD7741F69AC13000D75E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 831FD7551F69AC13000D75E5 /* QIF Flip */;
+			targetProxy = 831FD7731F69AC13000D75E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		831FD75F1F69AC13000D75E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				831FD7601F69AC13000D75E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		831FD7791F69AC13000D75E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		831FD77A1F69AC13000D75E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		831FD77C1F69AC13000D75E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "QIF Flip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cdyer.QIF-Flip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		831FD77D1F69AC13000D75E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "QIF Flip/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cdyer.QIF-Flip";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		831FD77F1F69AC13000D75E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "QIF FlipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cdyer.QIF-FlipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QIF Flip.app/Contents/MacOS/QIF Flip";
+			};
+			name = Debug;
+		};
+		831FD7801F69AC13000D75E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "QIF FlipTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cdyer.QIF-FlipTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QIF Flip.app/Contents/MacOS/QIF Flip";
+			};
+			name = Release;
+		};
+		831FD7821F69AC13000D75E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "QIF FlipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cdyer.QIF-FlipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "QIF Flip";
+			};
+			name = Debug;
+		};
+		831FD7831F69AC13000D75E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "QIF FlipUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cdyer.QIF-FlipUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "QIF Flip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		831FD7511F69AC13000D75E5 /* Build configuration list for PBXProject "QIF Flip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831FD7791F69AC13000D75E5 /* Debug */,
+				831FD77A1F69AC13000D75E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		831FD77B1F69AC13000D75E5 /* Build configuration list for PBXNativeTarget "QIF Flip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831FD77C1F69AC13000D75E5 /* Debug */,
+				831FD77D1F69AC13000D75E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		831FD77E1F69AC13000D75E5 /* Build configuration list for PBXNativeTarget "QIF FlipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831FD77F1F69AC13000D75E5 /* Debug */,
+				831FD7801F69AC13000D75E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		831FD7811F69AC13000D75E5 /* Build configuration list for PBXNativeTarget "QIF FlipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				831FD7821F69AC13000D75E5 /* Debug */,
+				831FD7831F69AC13000D75E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 831FD74E1F69AC13000D75E5 /* Project object */;
+}
