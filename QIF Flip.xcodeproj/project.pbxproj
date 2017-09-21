@@ -13,6 +13,8 @@
 		831FD7611F69AC13000D75E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 831FD75F1F69AC13000D75E5 /* Main.storyboard */; };
 		831FD76C1F69AC13000D75E5 /* QIF_FlipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FD76B1F69AC13000D75E5 /* QIF_FlipTests.swift */; };
 		831FD7771F69AC13000D75E5 /* QIF_FlipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FD7761F69AC13000D75E5 /* QIF_FlipUITests.swift */; };
+		831FD7851F69AE25000D75E5 /* DropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FD7841F69AE25000D75E5 /* DropView.swift */; };
+		831FD7871F69B661000D75E5 /* Qif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831FD7861F69B661000D75E5 /* Qif.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		831FD7721F69AC13000D75E5 /* QIF FlipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "QIF FlipUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		831FD7761F69AC13000D75E5 /* QIF_FlipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QIF_FlipUITests.swift; sourceTree = "<group>"; };
 		831FD7781F69AC13000D75E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		831FD7841F69AE25000D75E5 /* DropView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
+		831FD7861F69B661000D75E5 /* Qif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Qif.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				831FD75D1F69AC13000D75E5 /* Assets.xcassets */,
 				831FD75F1F69AC13000D75E5 /* Main.storyboard */,
 				831FD7621F69AC13000D75E5 /* Info.plist */,
+				831FD7841F69AE25000D75E5 /* DropView.swift */,
+				831FD7861F69B661000D75E5 /* Qif.swift */,
 			);
 			path = "QIF Flip";
 			sourceTree = "<group>";
@@ -255,8 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				831FD7871F69B661000D75E5 /* Qif.swift in Sources */,
 				831FD75C1F69AC13000D75E5 /* ViewController.swift in Sources */,
 				831FD75A1F69AC13000D75E5 /* AppDelegate.swift in Sources */,
+				831FD7851F69AE25000D75E5 /* DropView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,11 +406,10 @@
 		831FD77C1F69AC13000D75E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "QIF Flip/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cdyer.QIF-Flip";
+				PRODUCT_BUNDLE_IDENTIFIER = "cdyer.qif-flip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -411,11 +418,10 @@
 		831FD77D1F69AC13000D75E5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "QIF Flip/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "cdyer.QIF-Flip";
+				PRODUCT_BUNDLE_IDENTIFIER = "cdyer.qif-flip";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -498,6 +504,7 @@
 				831FD77D1F69AC13000D75E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		831FD77E1F69AC13000D75E5 /* Build configuration list for PBXNativeTarget "QIF FlipTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				831FD7801F69AC13000D75E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		831FD7811F69AC13000D75E5 /* Build configuration list for PBXNativeTarget "QIF FlipUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				831FD7831F69AC13000D75E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
